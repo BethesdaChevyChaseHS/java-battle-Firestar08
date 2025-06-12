@@ -267,7 +267,7 @@ public class MyRobot extends Robot{
     public int leadingCoords(int currPos, int vel, double dist){
         int predictedPos;
 
-        predictedPos = (int)(currPos + (vel * (dist / 10))); // Predicts the robot's position given its current velocity
+        predictedPos = (int)(currPos + (vel * (dist / 15))); // Predicts the robot's position given its current velocity
 
         return predictedPos;
     }
